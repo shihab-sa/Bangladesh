@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* container  */
+
+.container {
+  max-width: 1100px;
+
+  margin: auto;
+}
+/* logo  */
+
+.bd-logo {
+  color: #121629;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+li,
+a {
+  color: #121629;
+  list-style: none;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* button  */
+button {
+  padding: 7px 30px;
+  background-color: #a7a9be;
+  border: none;
+  border-radius: 4px;
+}
+button:hover {
+  background-color: #004643;
+  color: #fffffe;
+}
+
+/* nav bar  */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.ul-list {
+  display: flex;
+  gap: 20px;
+}
+
+/* hero section  */
+section {
+  display: flex;
+  margin-top: 80px;
+}
+
+.imag-section img {
+  width: 300px;
+}
+
+/* .info-hero {
+  margin-top: 90px;
+} */
+
+.hero-h1 {
+  font-size: 80px;
+}
+
+.info-para {
+  margin-top: 40px;
+}
+
+.vst {
+  margin-top: 20px;
+}
